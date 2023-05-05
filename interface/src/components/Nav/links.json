@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "label": "Главная",
+            "href": "/"
+        },
+        {
+            "label": "Фильтры",
+            "href": "/filters"
+        },
+        {
+            "label": "Подброки",
+            "href": "/recommended"
+        }
+    ]
+}

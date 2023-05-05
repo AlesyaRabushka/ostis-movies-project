@@ -1,0 +1,20 @@
+concept_king_mark
+
+=> nrel_main_idtf: 
+	[король] (*<- lang_ru;;*);
+	[king] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. король] (*<- lang_ru;;*);
+		[Def. king] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_king_mark">Король</sc_element></b> это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b> , указывающая на присутствие в фильме монарха.](* <- lang_ru;; => nrel_format: format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_king_mark">King</sc_element></b> is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> that shows that there is the monarch.](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

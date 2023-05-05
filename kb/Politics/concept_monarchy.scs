@@ -1,0 +1,20 @@
+concept_monarchy
+
+=> nrel_main_idtf: 
+	[монархия] (*<- lang_ru;;*);
+	[monarchy] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. монархия] (*<- lang_ru;;*);
+		[Def. monarchy] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_monarchy">Монархия</sc_element></b> форма правления, при которой главой государства является монарх, носящий соответствующий титул (<b><sc_element sys_idtf="concept_king">король</sc_element></b>, император, султан, эмир, фараон и т.д.).](* <- lang_ru;; => nrel_format: format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_monarchy">King</sc_element></b> a form of government in which the head of state is a monarch who bears the appropriate title (<b><sc_element sys_idtf="concept_king">king</sc_element></b>, emperor, sultan, emir, pharaoh, etc.).](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

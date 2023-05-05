@@ -1,0 +1,20 @@
+concept_space_mark
+
+=> nrel_main_idtf: 
+	[космос] (*<- lang_ru;;*);
+	[space] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. космос] (*<- lang_ru;;*);
+		[Def. space] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_space_mark">Космос</sc_element></b> - это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b>, показывающая, что события происходят в космосе.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_space_mark"> Space </sc_element></b> is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> that shows that events are happend in the space.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

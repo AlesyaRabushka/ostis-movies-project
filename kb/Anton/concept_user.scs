@@ -1,0 +1,22 @@
+concept_user 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пользователь]
+	(* <- lang_ru;;	*);
+	[User]
+	(* <- lang_en;;	*);;
+	
+concept_color <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пользователь)](*<-lang_ru;;*);
+		[Description (User)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: [<b>Пользователь</b> — наличие истории просмотров фильмов пользователя подразумевает многопользовательскую систему остис, для этого у каждого , кто работает с базой знаний, должен быть аккаунт. Для выполнения курсового проекта был создан пользователь, чтобы отдаленно имитировать многопользовательскую архитектуру.] (*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_user -> concept_movie_history;;
+

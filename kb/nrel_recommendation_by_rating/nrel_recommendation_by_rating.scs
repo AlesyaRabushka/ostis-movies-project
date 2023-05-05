@@ -1,0 +1,14 @@
+nrel_recommendation_by_rating
+<- sc_node_norole_relation;
+
+=> nrel_main_idtf: 
+	[рекомендация по рейтингу*] (*<- lang_ru;;*);
+	[recommendation by rating*] (*<- lang_en;;*);
+	
+	
+
+
+
+
+<- binary_relation;
+<- oriented_relation;;

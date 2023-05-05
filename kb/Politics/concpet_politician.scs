@@ -1,0 +1,20 @@
+concept_politician_mark
+
+=> nrel_main_idtf: 
+	[политик] (*<- lang_ru;;*);
+	[politician] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. политик] (*<- lang_ru;;*);
+		[Def. politician] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_family_mark">Политик</sc_element></b> - это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b>, показывающая, что в фильме главное место занимает политик.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_family_mark">Politician </sc_element></b>this is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> showing that there is a politician in the plot.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

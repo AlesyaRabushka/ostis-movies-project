@@ -1,0 +1,89 @@
+concept_fantasy
+=> nrel_main_idtf: 
+	[фантастика] (*<- lang_ru;;*);
+	[fantasy] (*<- lang_en;;*);;
+	
+		
+concept_drama
+=> nrel_main_idtf: 
+	[драма](* <- lang_ru;;*);
+	[drama](* <- lang_en;;*);;
+	
+
+concept_history
+=> nrel_main_idtf: 
+	[исторический](* <- lang_ru;;*);
+	[history](* <- lang_en;;*);;
+
+
+concept_war_film
+=> nrel_main_idtf: 
+	[военный](* <- lang_ru;;*);
+	[war_film](* <- lang_en;;*);;
+
+
+concept_biography_film
+=> nrel_main_idtf: 
+	[биографический](* <- lang_ru;;*);
+	[biography_film](* <- lang_en;;*);;
+
+
+concept_action
+=> nrel_main_idtf: 
+	[боевик](* <- lang_ru;;*);
+	[action](* <- lang_en;;*);;
+
+
+concept_adventure
+=> nrel_main_idtf: 
+	[приключения](* <- lang_ru;;*);
+	[adventure](* <- lang_en;;*);;
+
+
+concept_historical_film
+=> nrel_main_idtf: 
+	[исторический](* <- lang_ru;;*);
+	[historical_film](* <- lang_en;;*);;
+
+
+concept_melodrama
+=> nrel_main_idtf: 
+	[мелодрама](* <- lang_ru;;*);
+	[melodrama](* <- lang_en;;*);;
+
+
+concept_anime
+=> nrel_main_idtf: 
+	[аниме](* <- lang_ru;;*);
+	[anime](* <- lang_en;;*);;
+
+
+concept_anime
+=> nrel_main_idtf: 
+	[аниме](* <- lang_ru;;*);
+	[anime](* <- lang_en;;*);;
+
+
+concept_cartoon
+=> nrel_main_idtf: 
+	[мультфильм](* <- lang_ru;;*);
+	[cartoon](* <- lang_en;;*);;
+
+
+concept_romance
+=> nrel_main_idtf: 
+	[романтический](* <- lang_ru;;*);
+	[romance](* <- lang_en;;*);;
+
+
+concept_thriller
+=> nrel_main_idtf: 
+	[триллер](* <- lang_ru;;*);
+	[thriller](* <- lang_en;;*);;
+
+concept_sci_fi
+=> nrel_main_idtf: 
+	[научный](* <- lang_ru;;*);
+	[sci_fi](* <- lang_en;;*);;
+
+

@@ -1,0 +1,29 @@
+nrel_watched_movie <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [premier*](*<- lang_en;;*);
+    [кинопремьера*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (кинопремьера*)](*<- lang_ru;;*);
+        [Def. (premier*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>кинопремьера*</b> — отношение между фильмом и премьерой, обозначает, что данный фильм является кинопремьерой.] (*<-lang_ru;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=> nrel_first_domain: concept_film;
+=> nrel_second_domain: concept_premier_list;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        ->concept_movie;;
+    *);;
+*);;

@@ -1,0 +1,25 @@
+concept_film
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фильм]
+	(* <- lang_ru;; *);
+	[film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_film;;
+    <= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_film">Фильм</sc_element></b> это произведение искусства, предназначенное для демонстрации на экране.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_film">Film</sc_element></b> is a work of art intended to be shown on a screen.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_film;;
+        *);;
+*);;
+
+
+
+

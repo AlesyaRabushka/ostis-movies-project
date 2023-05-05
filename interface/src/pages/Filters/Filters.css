@@ -1,0 +1,49 @@
+.filters-page-component{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 870px;
+    height: 100%;
+    background-color: #2b2929;
+    align-items: center;
+    overflow:hidden;
+}
+
+.filters-logo{
+    margin-top: 40px;
+    font-size: xx-large;
+    color: white;
+    width: 51%;
+    align-items: flex;
+}
+
+.filters-dropdowns-container{
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+
+.filters-searchbars-container{
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+
+
+
+.filters-content{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+

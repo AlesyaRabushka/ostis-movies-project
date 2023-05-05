@@ -1,0 +1,20 @@
+concept_fairy_kingdom_mark
+
+=> nrel_main_idtf: 
+	[сказачное королевство] (*<- lang_ru;;*);
+	[fairy kingdom] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. сказачное королевство] (*<- lang_ru;;*);
+		[Def. fairy kingdom] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_fairy_kingdom_mark">Сказачное королевство</sc_element></b> - это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b>, показывающая, что в фильме в центре сюжета находится сказачное королевство.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_fairy_kingdom_mark">Fairy kingdom </sc_element></b>this is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> showing that in the film, fairy kingdom is at the center of the plot.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

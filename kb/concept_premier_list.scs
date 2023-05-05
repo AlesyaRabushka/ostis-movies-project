@@ -1,0 +1,22 @@
+concept_premier_list
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Список кинопремьер]
+	(* <- lang_ru;;	*);
+	[Premier list]
+	(* <- lang_en;;	*);;
+	
+concept_color <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Список кинопремьер)](*<-lang_ru;;*);
+		[Description (Premier list)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: [<b>Список кинопремьер</b> — сюда входят фильмы, которые были отмечены пользователем с помощью агента как кинопремьеры.] (*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+

@@ -1,0 +1,52 @@
+.item{
+    background-color: #202020;
+    border-radius: 10px;
+    margin: 25px;
+    height: 320px;
+    cursor: pointer;
+    padding: 20px 0 0 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+.film_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.film-rating{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_director{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_main_actors{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_tag_line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_year{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_country{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.film_genre{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

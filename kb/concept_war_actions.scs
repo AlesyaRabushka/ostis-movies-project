@@ -1,0 +1,20 @@
+concept_war_actions
+
+=> nrel_main_idtf: 
+	[боевые действия] (*<- lang_ru;;*);
+	[war actions] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. боевые действия] (*<- lang_ru;;*);
+		[Def. war actions] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_war_actions">Боевые действия</sc_element></b> - составная часть военных действий противоборствующих сторон, организованное применение сил и средств объединений, соединений, частей, подразделений для выполнения поставленных боевых задач.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_war_actions"> Цфк фсешщты </sc_element></b>An integral part of the military actions of the warring parties, the organized use of forces and means of associations, formations, units, divisions to perform assigned combat tasks.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

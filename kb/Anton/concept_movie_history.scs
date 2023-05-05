@@ -1,0 +1,22 @@
+concept_movie_history 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[История просмотренных фильмов]
+	(* <- lang_ru;;	*);
+	[Movie history]
+	(* <- lang_en;;	*);;
+	
+concept_color <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (История просмотренных фильмов)](*<-lang_ru;;*);
+		[Description (Movie history)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: [<b>История просмотренных фильмов</b> — сюда входят фильмы, которые были отмечены пользователем с помощью агента как просмотренные.] (*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+

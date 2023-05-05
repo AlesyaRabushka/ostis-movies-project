@@ -1,0 +1,8 @@
+.App {
+  overflow: auto;
+  height: 100%;
+  background-color:  #2b2929;
+}
+*{
+  margin:0
+}

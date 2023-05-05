@@ -1,0 +1,20 @@
+concept_soldier
+
+=> nrel_main_idtf: 
+	[солдат] (*<- lang_ru;;*);
+	[soldier] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. солдат] (*<- lang_ru;;*);
+		[Def. soldier] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_soldier">Солдат</sc_element></b> - это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b>, показывающая, что в фильме главным героем является военнослужащий.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_soldier">Soldier </sc_element></b>this is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> showing that the main character in the film is a serviceman.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;

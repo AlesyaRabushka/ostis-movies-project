@@ -1,0 +1,28 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 870px;
+    background-color: #2b2929;
+    align-items: center;
+    overflow:hidden;
+}
+
+.home-logo{
+    margin-top: 40px;
+    font-size: xx-large;
+    color: white;
+    width: 51%;
+    align-items: flex;
+}
+
+
+.home-content-box{
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,20 @@
+concept_gangster_mark
+
+=> nrel_main_idtf: 
+	[гангстер] (*<- lang_ru;;*);
+	[gangster] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. гангстер] (*<- lang_ru;;*);
+		[Def. gangster] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: [<b><sc_element sys_idtf="concept_gangster_mark">Гангстер</sc_element></b> - это <b><sc_element sys_idtf="concept_story_mark">сюжетная метка</sc_element></b>, показывающая, что в фильме главное место занимают гангстеры.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b><sc_element sys_idtf="concept_gangster_mark">Gangster </sc_element></b>this is a <b><sc_element sys_idtf="concept_story_mark">story mark</sc_element></b> showing that there are a gangsters in the plot.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);;
